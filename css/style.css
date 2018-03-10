@@ -1,1 +1,86 @@
 
+
+html {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("https://netology-code.github.io/mq-homeworks/adaptive-typography/family-album/img/wedding4.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 49px;
+  margin-left: 60px;
+}
+
+header li {
+  margin-right: 30px;
+}
+
+.inviting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34px;
+  margin-right: 60px;
+  width: 261px;
+  height: 50px;
+  border: solid 1px #ffffff;
+  border-radius: 100px;
+}
+
+.label_header h2, h3 {
+  margin: 0;
+}
+
+.label_header h2 {
+  font-size: 100px;
+  line-height: 1;
+  text-align: center;
+}
+
+.label_header h3 {
+  font-style: italic;
+  line-height: normal;
+  text-align: center;
+}
+
+.preview {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  opacity: 0.15;
+  background-color: #000000;
+}
+
+.preview h3 {
+  margin-top: 46px;
+  margin-left: 105px;
+  font-size: 14px;
+  font-style: italic;
+/*   line-height: normal; */
+  text-align: center;
+}
+
+.preview span {
+  margin-top: 38px;
+  margin-right: 124px;
+  opacity: 0.5;
+  font-family: GillSans;
+  line-height: 1.33;
+  text-align: left;
+}
