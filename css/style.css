@@ -2,8 +2,8 @@
 
 html {
   max-width: 1280px;
-  margin: 0 auto;  
-  font-size: 18px;  
+  margin: 0 auto;
+  font-size: 18px;
 }
 
 /* begin header */
@@ -92,8 +92,9 @@ header li {
 }
 /* end header */
 
-/* begin section history */
 
+
+/* begin section history */
 .history {
   display: flex;
   flex-direction: column;
@@ -139,6 +140,7 @@ header li {
   flex-wrap: wrap;
   width: 1280px;
   height: 396px;
+  margin-top: 70px;
 /*   -webkit-filter: blur(50px); */
   filter: blur(50px);
   background-color: #e2e2e2;
@@ -150,8 +152,9 @@ header li {
 
 .oval {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 200px;
   height: 200px;
   margin-top: 70px;
@@ -159,8 +162,91 @@ header li {
   border: 4px solid #ffffff;
   border-radius: 50%;
 
+  color: #ffffff;
+  line-height: normal;
+}
+
+.oval h4 {
   font-size: 100px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.oval h5 {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: normal;
+}
+
+.oval h4, h5 {
+  border: 2px solid green;
+  padding: 0;
+  margin: 0;
+}
+
+.history span {
+  margin: 0;
+  margin-left: 486px;
+  font-size: 14px;
+  font-style: italic;
   color: #ffffff;
 }
 
 /* end section history */
+
+
+/* begin time_inviting */
+.time_inviting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time_inviting h2 {
+  margin-top: 70px;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 0.91;
+  color: #5d5d5d;
+}
+
+.time_inviting p {
+  width: 920px;
+  margin-top: 30px;
+  line-height: 1.56;
+  color: #5d5d5d;
+}
+
+.time_inviting h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 253px;
+  height: 50px;
+
+  margin-top: 35px;
+  border-radius: 100px;
+  background-color: #ff8581;
+  text-align: center;
+  color: #ffffff;
+}
+
+.time_inviting span {
+  width: 95px;
+  margin-top: 30px;
+  font-family: GillSans;
+  font-size: 14px;
+  line-height: normal;
+  color: #bebebe;
+}
+
+.time_inviting span:: after {
+  position: absolute;
+  content: "";
+  width: 94px;
+  margin-bottom: 70px;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #5d5d5d;
+}
