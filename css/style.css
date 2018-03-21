@@ -1,5 +1,14 @@
 
 
+@font-face {
+  font-family: 'NautilusPompilius';
+  src: url('../fonts/NautilusPompilius.woff2') format('woff2'),
+  url('../fonts/NautilusPompilius.woff') format('woff'),
+  url('../fonts/NautilusPompilius.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   max-width: 1280px;
   margin: 0 auto;
@@ -45,7 +54,7 @@ header li {
 }
 
 .inviting {
-  display: flex;  
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 34px;
@@ -56,8 +65,12 @@ header li {
   border-radius: 100px;
 }
 
-.label_header h2, h3 {
+.label_header h2, .label_header h3 {
   margin: 0;
+}
+
+.label_header h2 {
+  font-family: NautilusPompilius;
 }
 
 .label_header h2 {
