@@ -8,7 +8,8 @@ html {
 
 /* begin header */
 header {
-  background-image: url("https://netology-code.github.io/mq-homeworks/adaptive-typography/family-album/img/wedding4.jpg");
+  background-image: url(../images/header.png);
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -94,6 +95,8 @@ header li {
 
 
 
+
+
 /* begin section history */
 .history {
   display: flex;
@@ -135,14 +138,19 @@ header li {
   color: #ffffff;
 }
 
+time::before {
+  /*background-image: url(../images/wp-48-l-9-c-9.png);*/
+  /*background-size: cover;*/
+}
+
 .time {
   display: flex;
   flex-wrap: wrap;
   width: 1280px;
   height: 396px;
   margin-top: 70px;
-/*   -webkit-filter: blur(50px); */
-  filter: blur(50px);
+  /* -webkit-filter: blur(50px); 
+  filter: blur(50px);*/ 
   background-color: #e2e2e2;
 }
 
@@ -180,7 +188,7 @@ header li {
 }
 
 .oval h4, h5 {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   padding: 0;
   margin: 0;
 }
