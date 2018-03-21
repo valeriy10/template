@@ -4,7 +4,7 @@ html {
   max-width: 1280px;
   margin: 0 auto;
   font-size: 18px;
-  border: 1px solid #e2e2e2;  
+  border: 1px solid #e2e2e2;
 }
 
 * {
@@ -216,6 +216,11 @@ time::before {
   color: #ffffff;
 }
 
+.history h2 strong {
+  font-size: 30px;
+  color: #3cbca3;
+}
+
 /* end section history */
 
 
@@ -287,6 +292,11 @@ time::before {
   line-height: 1.33;
   text-align: center;
   color: #5d5d5d;
+}
+
+.shedule h2 span {
+  font-size: 30px;
+  color: #3cbca3;
 }
 
 .buy {
