@@ -4,6 +4,7 @@ html {
   max-width: 1280px;
   margin: 0 auto;
   font-size: 18px;
+  border: 1px solid #e2e2e2;
 }
 
 /* begin header */
@@ -257,4 +258,81 @@ time::before {
   height: 1px;
   opacity: 0.2;
   background-color: #5d5d5d;
+}
+
+.shedule {
+  height: 686px;
+  background-color: #f0f0f0;
+}
+
+.shedule h2 {
+  height: 40px;
+  padding-top: 70px;
+  font-family: GillSans;
+  font-size: 30px;
+  line-height: 1.33;
+  text-align: center;
+  color: #5d5d5d;
+}
+
+.buy {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: #ffffff;
+
+  width: 918px;
+  height: 130px;
+  border-radius: 100px;
+}
+
+.hour {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #f0f0f0;
+
+  width: 918px;
+  height: 32px;
+}
+
+.address {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+
+  width: 918px;
+  height: 16px;
+}
+
+.buy h3, .hour h3, .address h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /*border: 2px solid red;*/
+
+  font-family: GillSans;
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  color: #ff8581;
+}
+
+.hour h3 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.07;
+  text-align: center;
+  color: #5d5d5d;
+}
+
+.address h3 {
+  font-size: 14px;
+  text-align: center;
+  color: #5d5d5d;
 }
